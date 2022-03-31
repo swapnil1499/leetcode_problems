@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20)
+project(leetcode)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(_001_two_sum _001_two_sum.cpp)
+add_executable(_002_add_two_numbers _002_add_two_numbers.cpp)
+add_executable(_003_longest_substring _003_longest_substring.cpp)
+add_executable(_010_regular_expression_matching _010_regular_expression_matching.cpp)
+add_executable(_004_median_of_two_sorted_arrays _004_median_of_two_sorted_arrays.cpp)
